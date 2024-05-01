@@ -47,7 +47,7 @@ Within the *newly* created directory do:
 ```
 cp -a /debian /whereever/skippy-xd-master/
 cp Makefile_patched /whereever/skippy-xd-master/Makefile
-cp Makefile_is_patched /whereever/skippy-xd-naster/
+cp Makefile_is_patched /whereever/skippy-xd-master/
 ```
 
 Re-enter the skippy-xd-master directory again and
