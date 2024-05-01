@@ -36,7 +36,7 @@ Download the zip-file from: <https://github.com/felixfung/skippy-xd> and unzip i
 Within that new directory (skippy-xd-master do:
 ```
 mv /DEBIAN  /DEBIAN.orig
-cp Makefile to Makefile.orig
+cp Makefile Makefile.orig
 ```
 
 Go back to the parent-directory and download the zip-file from <https://github.com/tonywhatever/deb_build4skippy> and unzip it.
