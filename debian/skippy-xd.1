@@ -1,0 +1,90 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" (C) Copyright 2024 Fred DC <fredd@uranus>,
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH skippy-xd 1 "April 20 2024"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+skippy-xd \- a window selector on X server
+.SH SYNOPSIS
+.B skippy-xd
+.RI [ options ]
+.br
+.SH DESCRIPTION
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics,
+.\" respectively.
+\fBskippy-xd\fP is window-manager-agnostic.
+.sp
+With \fBskippy-xd\fP, you get live-preview on your alt-tab motions; you get the much coveted expose feature from Mac; you get a handy overview of all your virtual desktops in one glance with paging mode.
+.SH OPTIONS
+.TP
+.B \-\-help
+.br
+Show this help message, the program's version number and exit.
+.TP
+.B \-S
+.br
+Enable debugging logs
+.TP
+.B \-\-config
+.br
+Read configuration file from path.
+.TP
+.B \-\-config-reload
+.br
+Reload configuration file from the previous path
+.TP
+.B \-\-start-daemon
+.br
+Run in daemon mode
+.br
+.TP
+.B \-\-switch
+.br
+Connects to daemon and activate switch
+.TP
+.B \-\-expose
+.br
+Connects to daemon and activate expose
+.TP
+.B \-\-paging
+.br
+Connects to daemon and activate paging
+.TP
+.B \-\-prev
+.br
+Focus on the previous window
+.TP
+.B \-\-next
+.br
+Focus on the next window
+.TP
+.B [no command]
+.br
+Activate expose once without daemon
+.SH THE RUN CONTROL FILE
+.br
+The system-wide default file (skippy-xd.rc) is at /etc/xdg/.
+.sp
+A sample configuration file (skippy-xd.sample.rc.gz is available at /usr/share/doc/skippy-xd/. Copy that file to ~/config/skippy-xd/. Then gunzip and rename it skipy-xd.rc and edit the file to your liking.
+.SH BUGS
+Nothing is perfect. Please use a search-engine before reporting a bug. It is known that certain Window-Managers might need a bit of tuning via the rc-file. 
+.SH SEE ALSO
+Homepage:  <https://github.com/felixfung/skippy-xd> and look for the Wiki.
+.br
+.SH AUTHORES
+This manual page was written by Antony DC <antonydc047@gmail.com> for the Debian/Devuan project (but may be used by others).

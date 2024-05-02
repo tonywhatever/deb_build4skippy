@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Skippy-xd-daemon
+Comment=Daemon for the lightweight window selector on X server
+Exec=/usr/bin/skippy-xd --start-daemon
+Icon=window.png
+Terminal=false
+NotShowIn=GNOME;

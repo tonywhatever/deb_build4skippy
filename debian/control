@@ -1,0 +1,29 @@
+Source: skippy-xd
+Section: unknown
+Priority: optional
+Maintainer: Antony DC <antonydc047@gmail.com>
+Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 13),
+	       libx11-dev,
+	       libxft-dev,
+	       libxcomposite-dev,
+	       libxdamage-dev,
+	       libxinerama-dev,
+	       libgdcm-dev,
+	       libjpeg62-turbo-dev,
+	       libgif-dev,
+ 	       pkg-config
+Standards-Version: 4.6.2
+Homepage: https://github.com/felixfung/skippy-xd
+#Vcs-Browser: https://salsa.debian.org/debian/skippy-xd
+#Vcs-Git: https://salsa.debian.org/debian/skippy-xd.git
+
+Package: skippy-xd
+Architecture: amd64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: Skippy-xd is a lightweight window selector on X server.
+ skippy-xd is window-manager-agnostic. You get live-preview on your alt-tab
+ motions; you get the much coveted expose feature from Mac; you get a handy
+ overview of all your virtual desktops in one glance with paging mode.

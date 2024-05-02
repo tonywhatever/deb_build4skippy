@@ -1,0 +1,3 @@
+skippy-xd.sample.rc	usr/share/doc/skippy-xd/
+CHANGELOG		usr/share/doc/skippy-xd/
+debian/skippy-xd-daemon.desktop	   etc/xdg/autostart/

@@ -1,0 +1,35 @@
+skippy-xd for Debian
+--------------------
+
+The debian package was built on a Devuan 5 (Daedalus) 5 machine and should
+be compatible with most most distributions which are based on Debian 12
+(Bookworm) such as MX-Linux, Antix etc. If it works with Ubuntu or Mint I
+don't know. Sorry.
+
+The source was downloaded on the 20-04-2024.
+
+Some output of 'skippy-xd --help':
+
+skippy-xd v0.7.2 (2023.07.30) - "Candybar" Edition
+spng_about(): PNG support: Yes
+  Compiled with libpng 1.6.39, using 1.6.39.
+  Compiled with zlib 1.2.13, using 1.2.13.
+
+For how to use skippy-xd please read the manpage. $ man skippy-xd
+
+It is also a good idea to read the Wiki at
+https://github.com/felixfung/skippy-xd.
+
+After the installation:
+
+The 'skippy-xd --daemon' will start automatically via
+/etc/xdg/autostart/ if you use a DE.
+
+To invoke skippy-xd conveniently while in the GUI bind 'skippy-xd --expose'
+for example to the keyboard-shortcut 'Super-e'.
+
+If you don't like the default settings consider using the well documented
+sample-rc-file in /usr/share/doc/skippy-xd/ before tinkering with the
+systemwide-rc-file.
+
+-- Antony DC <antonydc047@gmail.com>  Sat, 20 Apr 2024 17:29:37 +1200
