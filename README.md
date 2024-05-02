@@ -50,7 +50,7 @@ cp Makefile_patched /whereever/skippy-xd-master/Makefile
 cp Makefile_is_patched /whereever/skippy-xd-master/
 ```
 
-Re-enter the skippy-xd-master directory again and
+Re-enter the skippy-xd-master directory again. After checking if /debian, Makefile and Makefile_is_patched is present execute the next command:
 ```
 dpkg-buildpackage -rfakeroot -us -uc -b
 ```
