@@ -16,7 +16,7 @@ Two installable unsigned *'Debian Bookworm-amd64'* packages (skippy-xd_0.7.x-x_a
 
 ## How to create a skippy-xd debian package?
 
-The following instruction are for a **Debian 12 (Bookworm)** and should work for Devuan, MX-Linux, Antix SpiralLinux etc. If it will work for *Ubuntu* flavoured distros I don't know.
+The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daedalus)** and should work for MX-Linux, Antix, SpiralLinux etc. If it will work for *Ubuntu* and distros bases on it I don't know. You might have to adjust some version dependencies.
 
 ### The required tools are:
 ```
