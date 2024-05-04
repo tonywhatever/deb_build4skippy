@@ -8,7 +8,7 @@ Please note the following:
 
 I am not a packager nor a coder and using Git is new to me. I like to think that my very own two preliminary deb-pkgs are presently (29-04-2024) more up to date and far more debian-conforming in contrast to the available packages from an official debian repo.
 
-### Goal:
+Goal:
 
 My aim is to support Frlix Fung's project with a proper debian-tree for the folks who want to create their own two debian binary packages to run skippy-xd.
 
@@ -16,7 +16,11 @@ Two installable unsigned *'Debian Bookworm-amd64'* packages (skippy-xd_0.7.x-x_a
 
 ## How to create a skippy-xd debian package?
 
-The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daedalus)** and should work for MX-Linux, Antix, SpiralLinux etc. If it will work for *Ubuntu* and distros bases on it I don't know. You might have to adjust some version dependencies.
+The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daedalus)** and will also work for MX-Linux, Antix, SpiralLinux etc.
+
+### Warning:
+
+Unfortunately **Ubuntu**, as usual, had to use a different or just a renamed set of 'libjpeg*' libraries. The below described recipe **will not work for Ubuntu**. I guess it can be made to work fairly easy but I won't do it. Feel free to fork it.
 
 ### The required tools are:
 ```
@@ -68,7 +72,7 @@ It doesn't get much simpler to create your very own proper debian-package.
 
 ## Where are the binary packages for downloading?
 
-Still on my computer! I'm trying to work out how the package-repo with Github works. Sorry.
+Still on my computer! Sorry.
 
 Enjoy!
 
