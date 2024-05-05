@@ -74,7 +74,7 @@ It doesn't get much simpler to create your very own proper debian-package.
 
 ## Where are the binary packages for downloading?
 
-The container by the name of **Debian12-skippy-xd_0.7.2-1_amd64_binaries.zip** is on my 'Google Drive'. The link for downloding is: <https://drive.google.com/file/d/1aensbLkQwjdy3XlciQnHLkRguRV1e80n/view?usp=sharing>
+The container by the name of **Debian12-skippy-xd_0.7.2-1_amd64_binaries.zip** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1aensbLkQwjdy3XlciQnHLkRguRV1e80n/view?usp=sharing>
 
 Please check the integrity of the zip-file!
 
