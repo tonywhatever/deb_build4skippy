@@ -12,15 +12,17 @@ Goal:
 
 My aim is to support Frlix Fung's project with a proper debian-tree for the folks who want to create their own two debian binary packages to run skippy-xd.
 
-Two installable unsigned *'Debian Bookworm-amd64'* packages (skippy-xd_0.7.x-x_amd64.deb, skippy-xd-dbgsym_0.7.x-x_amd64.deb) will also be made available for downloading. At least that's the plan.
+Two installable unsigned *'Debian Bookworm-amd64'* packages (skippy-xd_0.7.x-x_amd64.deb, skippy-xd-dbgsym_0.7.x-x_amd64.deb) are made available for downloading.
+
+## Caveat
+
+**Ubuntu**, as usual, had to use a different or just a renamed set of 'jpeg*' libraries. The below described recipe nor the provided binaries **will not work for Ubuntu and Ubuntu-based distros**. I am sure it can be made to work with a few adjustments and tests but I personally won't do it (not enough hours in my day). Feel free to fork it.
+
 
 ## How to create a skippy-xd debian package?
 
 The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daedalus)** and will also work for MX-Linux, Antix, SpiralLinux etc.
 
-### Warning:
-
-Unfortunately **Ubuntu**, as usual, had to use a different or just a renamed set of 'libjpeg*' libraries. The below described recipe **will not work for Ubuntu**. I guess it can be made to work fairly easy but I won't do it. Feel free to fork it.
 
 ### The required tools are:
 ```
@@ -72,7 +74,14 @@ It doesn't get much simpler to create your very own proper debian-package.
 
 ## Where are the binary packages for downloading?
 
-Still on my computer! Sorry.
+The container by the name of **Debian12-skippy-xd_0.7.2-1_amd64_binaries.zip** is on my 'Google Drive'. The link for downloding is: <https://drive.google.com/file/d/1aensbLkQwjdy3XlciQnHLkRguRV1e80n/view?usp=sharing>
+
+Please check the integrity of the zip-file!
+
+md5sums: 496cf7557660a0e664a85a3da0693130  Debian12-skippy-xd_0.7.2-1_amd64_binaries.zip
+
+sha256sums: 2118d59beae045576d39557f01879e12e53457e3b754f4d5142045392ea991bb  Debian12-skippy-xd_0.7.2-1_amd64_binaries.zip
+
 
 Enjoy!
 
