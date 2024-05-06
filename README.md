@@ -16,7 +16,7 @@ Two installable unsigned *'Debian Bookworm-amd64'* packages (skippy-xd_0.7.x-x_a
 
 ## Caveat
 
-**Ubuntu**, as usual, had to use a different or just a renamed set of 'jpeg*' libraries. The below described recipe and the provided binaries **will not work for Ubuntu and Ubuntu-based distros**. I am sure it can be made to work with a few adjustments and tests but I personally won't do it (not enough hours in my day). Feel free to fork it.
+**Ubuntu** uses a different set of 'jpeg*' libraries. The below described recipe and the provided binaries **will not work for Ubuntu and Ubuntu-based distros**. I am sure it can be made to work with a few adjustments and tests but I personally won't do it (not enough hours in my day). Feel free to fork it.
 
 
 ## How to create a skippy-xd debian package?
