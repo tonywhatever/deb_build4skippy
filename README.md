@@ -10,7 +10,7 @@ I am not a packager nor a coder and using Git is new to me. I like to think that
 
 Goal:
 
-My aim is to support Frlix Fung's project with a proper debian-tree for the folks who want to create their own two debian binary packages to run skippy-xd.
+My aim is to support Felix Fung's project with a proper debian-tree for the folks who want to create their own two debian binary packages to run skippy-xd.
 
 Two installable unsigned *'Debian Bookworm-amd64'* packages (skippy-xd_0.7.x-x_amd64.deb, skippy-xd-dbgsym_0.7.x-x_amd64.deb) are made available for downloading.
 
