@@ -41,7 +41,6 @@ Download the zip-file from: <https://github.com/felixfung/skippy-xd> and unzip i
 
 Within that new directory (skippy-xd-master do:
 ```
-mv /DEBIAN  /DEBIAN.orig
 cp Makefile Makefile.orig
 ```
 
