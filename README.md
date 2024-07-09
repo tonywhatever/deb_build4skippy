@@ -1,5 +1,13 @@
 # deb_build4skippy
 
+## Outdated, Do NOT use it!
+
+### The update to the new version of skippy-xd is scheduled to be completed on the 24 July 2024
+
+.
+
+........................................................................................................
+
 Preliminary:
 
 Thanks to *Felix Fung* skippy-xd is not dead. The project's URL is: <https://github.com/felixfung/skippy-xd>/
