@@ -14,7 +14,7 @@ Thanks to *Felix Fung* skippy-xd is not dead. The project's URL is: <https://git
 
 Please note the following:
 
-I am not a packager nor a coder and using Git is new to me but I think that my very own two deb-pkgs are more up to date and far more debian-conforming in contrast to the available packages from the usual debian repos.
+I am not a packager nor a coder and using Git is a pain in the neck for me but I think that my very own two deb-pkgs are more up to date and far more debian-conforming in contrast to the available packages from the usual debian repos.
 
 Goal:
 
@@ -30,7 +30,7 @@ Two installable unsigned *'Debian Bookworm (12)-amd64'* packages (skippy-xd_x.x.
 
 ## Where are the binary packages for downloading?
 
-The container by the name of **Debian12-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1eNo3ZV5Gsh_oCZYq1oFlfgwwzaP1sArd/view?usp=sharing>
+The container (holding 2 debs) by the name of **Debian12-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1eNo3ZV5Gsh_oCZYq1oFlfgwwzaP1sArd/view?usp=sharing>
 
 **Please check the integrity** of "Debian12-skippy-xd_0.8.0-1_amd64_binaries.tar.gz"
 
