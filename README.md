@@ -90,7 +90,10 @@ sudo gdebi skippy-xd_0.8.0-1_amd64.deb
 ```
 ```
 sudo gdebi skippy-xd-dbgsym_0.8.0-1_amd64.deb
+
 ```
+
+After the installation it will be listed using 'aptidude' under "Obsolete and Locally Created Packages".
 
 It doesn't get much simpler to create your very own proper debian-package.
 
