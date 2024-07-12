@@ -20,7 +20,7 @@ Goal:
 
 My aim is to support Felix Fung's project with a proper debian-tree for the folks who want to create their own two debian binary packages to run skippy-xd.
 
-Two installable unsigned *'Debian Bookworm (12)-amd64'* packages (skippy-xd_0.x.x-x_amd64.deb, skippy-xd-dbgsym_0.x.x-x_amd64.deb) are made available for downloading.
+Two installable unsigned *'Debian Bookworm (12)-amd64'* packages (skippy-xd_x.x.x-x_amd64.deb, skippy-xd-dbgsym_x.x.x-x_amd64.deb) are made available for downloading.
 
 ## Caveat
 
@@ -30,8 +30,7 @@ Two installable unsigned *'Debian Bookworm (12)-amd64'* packages (skippy-xd_0.x.
 
 ## Where are the binary packages for downloading?
 
-Link needs updating!!!!!!!
-The container by the name of **Debian12-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1aensbLkQwjdy3XlciQnHLkRguRV1e80n/view?usp=sharing>
+The container by the name of **Debian12-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1eNo3ZV5Gsh_oCZYq1oFlfgwwzaP1sArd/view?usp=sharing>
 
 **Please check the integrity** of "Debian12-skippy-xd_0.8.0-1_amd64_binaries.tar.gz"
 
@@ -45,20 +44,25 @@ sha256sums: 6ce0ad7d6f08b569a50f445ae779e6a63330e5d56af0ac2edd0a6552d91682ee
 
 ## How to create a skippy-xd debian package?
 
+For Version 0.8.0 -- "Labyrinth" (19 June 2024) ~/felixfung
+
 The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daedalus)** and will also work for MX-Linux, Antix, SpiralLinux etc.
+
+It does create the proper but unsigned Debian-Binaries-Packades only. It omits skippy-xd_x.x.x.orig.tar.gz (debianized source), skippy-xd_x.x.x-x.dsc and skippy-xd_x.x.x-x.debian.tar.xz.
 
 
 ### The required tools are:
 
 ```
-sudo apt-get install build-essential dh-make fakeroot debhelper
+sudo apt-get install build-essential dh-make fakeroot debhelper devscripts
 ```
 
-### The build-depends are (git is optional):
+### The build-depends are:
 
 ```
-sudo apt-get install git libx11-dev libxft-dev libxcomposite-dev libxdamage-dev libxinerama-dev libgdcm-dev libjpeg62-turbo-dev libgif-dev pkg-config
+sudo apt-get install libx11-dev libxft-dev libxcomposite-dev libxdamage-dev libxinerama-dev libgdcm-dev libjpeg62-turbo-dev libgif-dev pkg-config
 ```
+We don't use git, we download the zip-file!
 
 ### And now:
 
@@ -78,9 +82,9 @@ Now enter the skippy-xd-master directory. After checking if /debian is present a
 dpkg-buildpackage -rfakeroot -us -uc -b
 ```
 
-and very shortly after you should find two new deb-files in the parent-directory of skippy-xd-master. (Any warning about debian/changelog can be safely ignored, it's OK)
+and very shortly after you should find two new deb-binaries in the parent-directory of skippy-xd-master. (Any warning about debian/changelog can be safely ignored, it's OK)
 
-You can now install them. Note that skippy-xd-dbgsym_0.x.x-x_amd64.deb is optional)
+You can now install them. Note that skippy-xd-dbgsym_x.x.x-x_amd64.deb is optional.
 ```
 sudo gdebi skippy-xd_0.8.0-1_amd64.deb
 ```
