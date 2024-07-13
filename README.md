@@ -56,7 +56,7 @@ sudo apt-get install build-essential dh-make fakeroot debhelper devscripts
 ### The build-depends are:
 
 ```
-sudo apt-get install libx11-dev libxft-dev libxcomposite-dev libxdamage-dev libxinerama-dev libgdcm-dev libjpeg62-turbo-dev libgif-dev pkg-config
+sudo apt-get install libx11-dev libxft-dev libxcomposite-dev libxdamage-dev libxinerama-dev libgdcm-dev libjpeg62-turbo-dev libgif-dev pkg-config devscripts
 ```
 We don't use git, we download the zip-file!
 
