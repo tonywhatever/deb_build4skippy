@@ -1,14 +1,14 @@
 skippy-xd for Debian
 --------------------
 
-The debian package was built on a Devuan 5 (Daedalus) 5 machine and is
-compatible with most most distributions which are based on Debian 12
-(Bookworm) such as MX-Linux, Antix etc. It will not work with Ubuntu or
-Mint. Sorry.
+The debian package was built on a Devuan (stable) machine and is
+compatible with most distributions which are based on Debian (stable)
+such as MX-Linux, Antix etc. It will not work with Ubuntu or Mint.
+Sorry.
 
 For how to use skippy-xd please read the manpage. $ man skippy-xd
 
-It is also a good idea to read the Wiki at
+If you are new to skippy-xd, it is strongly recommended to read the Wiki at
 https://github.com/felixfung/skippy-xd.
 
 After the installation:
@@ -19,9 +19,9 @@ The 'skippy-xd --daemon' will start automatically via
 To invoke skippy-xd conveniently while in the GUI bind 'skippy-xd --expose'
 for example to the keyboard-shortcut 'Super-e'.
 
-If you don't like the default settings, 
-copy /usr/share/doc/skippy-xd/skippy-xd.sample.rc.gz to ~/.config/skippy-xd/,
-gunzip the file and rename it to skippy-xd.rc. Instead of tinkering with
-the system-wide-rc-file.
+Instead of tinkering with the system-wide-rc-file because you don't like the
+default settings, copy /usr/share/doc/skippy-xd/skippy-xd.sample.rc.gz
+to ~/.config/skippy-xd/, gunzip the file and rename it to skippy-xd.rc.
+Use that file for tinkering and leave the default file as is.
 
 -- Antony DC <antonydc047@gmail.com>  Sat, 10 Jul 2024 17:29:37 +1200
