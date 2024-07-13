@@ -50,14 +50,15 @@ You need to update and upgrade the system first
 ### The required tools are:
 
 ```
-sudo apt-get install build-essential dh-make fakeroot debhelper devscripts
+sudo apt-get install build-essential dh-make fakeroot debhelper devscripts pkg-config
 ```
 
 ### The build-depends are:
 
 ```
-sudo apt-get install libx11-dev libxft-dev libxcomposite-dev libxdamage-dev libxinerama-dev libgdcm-dev libjpeg62-turbo-dev libgif-dev pkg-config devscripts
+sudo apt-get install libx11-dev libxft-dev libxcomposite-dev libxdamage-dev libxinerama-dev libgdcm-dev libjpeg62-turbo-dev libgif-dev
 ```
+
 We don't use git, we download the zip-file!
 
 ### And now:
