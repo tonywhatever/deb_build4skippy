@@ -1,13 +1,5 @@
 # deb_build4skippy
 
-## Outdated, Do NOT use it!
-
-### The update to the new version of skippy-xd is scheduled to be completed on the 24 July 2024
-
-.
-
-........................................................................................................
-
 Preliminary:
 
 Thanks to *Felix Fung* skippy-xd is not dead. The project's URL is: <https://github.com/felixfung/skippy-xd>/
@@ -49,6 +41,10 @@ For Version 0.8.0 -- "Labyrinth" (19 June 2024) ~/felixfung
 The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daedalus)** and will also work for MX-Linux, Antix, SpiralLinux etc.
 
 It does create the proper but unsigned Debian-Binaries-Packades only. It omits skippy-xd_x.x.x.orig.tar.gz (debianized source), skippy-xd_x.x.x-x.dsc and skippy-xd_x.x.x-x.debian.tar.xz.
+
+### Befor anything else:
+
+You need to update and upgrade the system first
 
 
 ### The required tools are:
