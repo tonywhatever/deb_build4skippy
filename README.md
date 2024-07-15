@@ -6,7 +6,7 @@ Thanks to *Felix Fung* skippy-xd is not dead. The project's URL is: <https://git
 
 Please note the following:
 
-I am not a packager nor a coder and using Git is a pain in the neck for me but I think that my very own two deb-pkgs are more up to date and far more debian-conforming in contrast to the available packages from the usual debian repos.
+I am not an official debian-packager nor a coder and using Git is a pain in the neck for me. However I think that my very own two deb-pkgs are more up to date and far more debian-conforming in contrast to the available packages from the usual debian repos.
 
 Goal:
 
@@ -90,7 +90,7 @@ sudo gdebi skippy-xd-dbgsym_0.8.0-1_amd64.deb
 
 ```
 
-After the installation it will be listed using 'aptidude' under "Obsolete and Locally Created Packages".
+After the installation it will be listed using for example 'aptitude' under "Obsolete and Locally Created Packages".
 
 It doesn't get much simpler to create your very own proper debian-package.
 
