@@ -16,7 +16,7 @@ Two installable unsigned *'Debian Bookworm (12)-amd64'* packages (skippy-xd_x.x.
 
 ## Caveat
 
-**Ubuntu** uses a different set of 'jpeg*' libraries. The below described recipe and the provided binaries **will not work for Ubuntu and Ubuntu-based distros**. I am sure it can be made to work with a few adjustments and tests but I personally won't do it (not enough hours in my day). Having said that I will accept patches to make it work for Ubuntu etc.
+**Ubuntu** uses a different set of 'jpeg*' libraries. The below described recipe and the provided binaries **will not work for Ubuntu and Ubuntu-based distros**. I am sure it can be made to work with a few adjustments and tests but I personally won't do it (not enough hours in my day). Having said that I will accept patches to make it work for Ubuntu etc. See under 'Issues' askng for help.
 
 .
 
