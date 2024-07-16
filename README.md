@@ -42,9 +42,9 @@ The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daeda
 
 It does create the proper but unsigned Debian-Binaries-Packades only. We omit deliberatelly the creation of skippy-xd_x.x.x.orig.tar.gz (debianized source), skippy-xd_x.x.x-x.dsc and skippy-xd_x.x.x-x.debian.tar.xz.
 
-### Befor anything else:
+### Befor you do anything:
 
-You need to update and upgrade the system first
+You need to update and upgrade the system first!!!
 
 
 ### The required tools are:
