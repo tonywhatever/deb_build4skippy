@@ -2,6 +2,8 @@
 
 ## Create a debian package for all flavours of Ubuntu 24.04 LTS 
 
+Should also work for Linux-Mint 21.*
+
 For Version 0.8.0 -- "Labyrinth" (19 June 2024) ~/felixfung
 
 
