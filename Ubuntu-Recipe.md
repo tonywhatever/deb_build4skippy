@@ -43,7 +43,7 @@ cp -a /4ubunu_only/control ../skippy-xd-master/debian/
 cp -a /4ubunu_only/ready4ubuntu ../skippy-xd-master/
 ```
 
-Now enter the skippy-xd-master directory. After checking if /debian is present and populated with files and a sub-directory execute the next command:
+Now enter the skippy-xd-master directory. After checking if /debian is present and populated with files and a sub-directory execute the next command (from ./skippy-xd-master/):
 
 ```
 dpkg-buildpackage -rfakeroot -us -uc -b
