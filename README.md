@@ -27,7 +27,7 @@ md5sums: eaed454fbb0ae56f2fa85e40746ec9f4
 sha256sums: 6ce0ad7d6f08b569a50f445ae779e6a63330e5d56af0ac2edd0a6552d91682ee 
 
 
-**For Ubuntu 24.04 LTS**
+**For Ubuntu 24.04 LTS and Linuxmint 21.3 LTS**
 
 The container (holding 2 debs) by the name of **Ubuntu24.04-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1C6SqLl768xsRmXQ0_oJNmRP_jvi0TpgY/view?usp=drive_link >
 
@@ -45,7 +45,7 @@ sha256sums: 0e0c2ac6b837b2aadac963a7d44e86032f833858249997ab47fe95a7d84db9d3
 
 For Debian read Debian-Recipe.md
 
-For Ubuntu read Ubuntu-Recipe.md
+For Ubuntu and Linuxmint read Ubuntu-Recipe.md
 
 
 
