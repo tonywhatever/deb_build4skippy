@@ -12,15 +12,11 @@ Goal:
 
 My aim is to support Felix Fung's project with a proper debian-tree for the folks who want to create their own two debian binary packages to run skippy-xd.
 
-Two installable unsigned *'Debian Bookworm (12)-amd64'* packages (skippy-xd_x.x.x-x_amd64.deb, skippy-xd-dbgsym_x.x.x-x_amd64.deb) are made available for downloading.
-
-## Caveat
-
-**Ubuntu** uses a different set of 'jpeg*' libraries. The below described recipe and the provided binaries **will not work for Ubuntu and Ubuntu-based distros**. I am sure it can be made to work with a few adjustments and tests but I personally won't do it (not enough hours in my day). Having said that I will accept patches to make it work for Ubuntu etc. See under 'Issues' askng for help.
-
-.
+Installable unsigned *'Debian Bookworm (12)-amd64'* , *'Ubuntu noble (24.04)-amd64'* packages are made available for downloading.
 
 ## Where are the binary packages for downloading?
+
+**For Debian 12**
 
 The container (holding 2 debs) by the name of **Debian12-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1eNo3ZV5Gsh_oCZYq1oFlfgwwzaP1sArd/view?usp=sharing>
 
@@ -30,69 +26,26 @@ md5sums: eaed454fbb0ae56f2fa85e40746ec9f4
 
 sha256sums: 6ce0ad7d6f08b569a50f445ae779e6a63330e5d56af0ac2edd0a6552d91682ee 
 
+
+**For Ubuntu 24.04 LTS**
+
+The container (holding 2 debs) by the name of **Ubuntu24.04-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1C6SqLl768xsRmXQ0_oJNmRP_jvi0TpgY/view?usp=drive_link >
+
+**Please check the integrity** of "Ubuntu24.04-skippy-xd_0.8.0-1_amd64_binaries.tar.gz"
+
+md5sums: 42af30b61ae5bcbb9b6dc282415b809b
+
+sha256sums: 0e0c2ac6b837b2aadac963a7d44e86032f833858249997ab47fe95a7d84db9d3 
+
 .
 
 
 
 ## How to create a skippy-xd debian package?
 
-For Version 0.8.0 -- "Labyrinth" (19 June 2024) ~/felixfung
+For Debian read Debian-Recipe.md
 
-The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daedalus)** and will also work for MX-Linux, Antix, SpiralLinux etc.
-
-It does create the proper but unsigned Debian-Binaries-Packades only. We omit deliberatelly the creation of skippy-xd_x.x.x.orig.tar.gz (debianized source), skippy-xd_x.x.x-x.dsc and skippy-xd_x.x.x-x.debian.tar.xz.
-
-### Befor you do anything:
-
-You need to update and upgrade the system first!!!
-
-
-### The required tools are:
-
-```
-sudo apt-get install build-essential dh-make fakeroot debhelper devscripts pkg-config
-```
-
-### The build-depends are:
-
-```
-sudo apt-get install libx11-dev libxft-dev libxcomposite-dev libxdamage-dev libxinerama-dev libgdcm-dev libjpeg62-turbo-dev libgif-dev
-```
-
-We don't use git, we download the zip-file!
-
-### And now:
-
-Download the zip-file from: <https://github.com/felixfung/skippy-xd> and unzip it, thus creating a directory 'skippy-xd-mster'.
-
-Do not enter 'skippy-xd-master' but download the zip-file from <https://github.com/tonywhatever/deb_build4skippy> and unzip it.
-
-Within the *newly* created directory 'deb_build4skippy-main' do:
-
-```
-cp -a /debian ../skippy-xd-master/
-```
-
-Now enter the skippy-xd-master directory. After checking if /debian is present and populated with files and a sub-directory execute the next command:
-
-```
-dpkg-buildpackage -rfakeroot -us -uc -b
-```
-
-and very shortly after you should find two new deb-binaries in the parent-directory of skippy-xd-master. (Any warning about debian/changelog can be safely ignored, it's OK)
-
-You can now install them. Note that skippy-xd-dbgsym_x.x.x-x_amd64.deb is optional.
-```
-sudo gdebi skippy-xd_0.8.0-1_amd64.deb
-```
-```
-sudo gdebi skippy-xd-dbgsym_0.8.0-1_amd64.deb
-
-```
-
-After the installation it will be listed using for example 'aptitude' under "Obsolete and Locally Created Packages".
-
-It doesn't get much simpler to create your very own proper debian-package.
+For Ubuntu read Ubuntu-Recipe.md
 
 
 
