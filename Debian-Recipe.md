@@ -1,6 +1,6 @@
 
 
-## How to create a skippy-xd debian package?
+## Create a debian package for Debian 12, Devuan 5, MX-Linux 23....
 
 For Version 0.8.0 -- "Labyrinth" (19 June 2024) ~/felixfung
 
