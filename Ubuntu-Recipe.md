@@ -1,6 +1,6 @@
 
 
-## Create a debian package for all flavours of Ubuntu 24.04 LTS 
+## Create a debian package for all flavours of Ubuntu 24.04 LTS and Linuxmint 21.3
 
 
 
