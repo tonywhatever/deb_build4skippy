@@ -1,10 +1,9 @@
 
 
-## How to create a skippy-xd debian package?
+## Create a debian package for all flavours of Ubuntu 24.04 LTS 
 
 For Version 0.8.0 -- "Labyrinth" (19 June 2024) ~/felixfung
 
-The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daedalus)** and will also work for MX-Linux, Antix, SpiralLinux etc.
 
 It does create the proper but unsigned Debian-Binaries-Packades only. We omit deliberatelly the creation of skippy-xd_x.x.x.orig.tar.gz (debianized source), skippy-xd_x.x.x-x.dsc and skippy-xd_x.x.x-x.debian.tar.xz.
 
@@ -22,7 +21,7 @@ sudo apt-get install build-essential dh-make fakeroot debhelper devscripts pkg-c
 ### The build-depends are:
 
 ```
-sudo apt-get install libx11-dev libxft-dev libxcomposite-dev libxdamage-dev libxinerama-dev libgdcm-dev libjpeg62-turbo-dev libgif-dev
+sudo apt-get install libx11-dev libxft-dev libxcomposite-dev libxdamage-dev libxinerama-dev libgdcm-dev libjpeg-turbo8-dev libgif-dev
 ```
 
 We don't use git, we download the zip-file!
@@ -37,6 +36,9 @@ Within the *newly* created directory 'deb_build4skippy-main' do:
 
 ```
 cp -a /debian ../skippy-xd-master/
+cp -a /4ubunu_only/changelog ../skippy-xd-master/debian/
+cp -a /4ubunu_only/control ../skippy-xd-master/debian/
+cp -a /4ubunu_only/ready4ubuntu ../skippy-xd-master/
 ```
 
 Now enter the skippy-xd-master directory. After checking if /debian is present and populated with files and a sub-directory execute the next command:
@@ -47,12 +49,12 @@ dpkg-buildpackage -rfakeroot -us -uc -b
 
 and very shortly after you should find two new deb-binaries in the parent-directory of skippy-xd-master. (Any warning about debian/changelog can be safely ignored, it's OK)
 
-You can now install them. Note that skippy-xd-dbgsym_x.x.x-x_amd64.deb is optional.
+You can now install them. Note that skippy-xd-dbgsym_x.x.x-x~ubuntu24.04-*_amd64.ddeb is optional.
 ```
-sudo gdebi skippy-xd_0.8.0-1_amd64.deb
+sudo gdebi skippy-xd_0.8.0-1~ubuntu24.04-1_amd64.deb
 ```
 ```
-sudo gdebi skippy-xd-dbgsym_0.8.0-1_amd64.deb
+sudo gdebi kippy-xd-dbgsym_0.8.0-1~ubuntu24.04-1_amd64.ddeb
 
 ```
 
