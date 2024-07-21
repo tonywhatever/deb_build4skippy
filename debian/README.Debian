@@ -24,4 +24,10 @@ default settings, copy /usr/share/doc/skippy-xd/skippy-xd.sample.rc.gz
 to ~/.config/skippy-xd/, gunzip the file and rename it to skippy-xd.rc.
 Use that file for tinkering and leave the default file as is.
 
+Tip:
+For Xfce4 to get rid of the whisker-menu showing up as a runnning
+application, set in ~/.config/skippy-xd/skippy-xd.rc:
+clientlist = _NET_CLIENT_LIST
+
+
 -- Antony DC <antonydc047@gmail.com>  Sat, 10 Jul 2024 17:29:37 +1200
