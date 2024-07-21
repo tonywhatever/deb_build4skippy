@@ -1,6 +1,6 @@
 
 
-## Create a debian package for all flavours of Ubuntu 24.04 LTS and Linuxmint 21.3
+## Create a debian package for all flavours of Ubuntu 24.04 LTS and Linux Mint 22 Beta (Codebase: Ubuntu 24.04)
 
 
 
@@ -52,12 +52,12 @@ dpkg-buildpackage -rfakeroot -us -uc -b
 and very shortly after you should find two new deb-binaries in the parent-directory of skippy-xd-master. (Any warning about debian/changelog can be safely ignored, it's OK)
 
 You can now install them. Note that skippy-xd-dbgsym_x.x.x-x~ubuntu24.04-*_amd64.ddeb is optional.
+
+I have no idea why in Ubuntu the dbgsym-file gets renamed to *.ddeb
+
 ```
 sudo gdebi skippy-xd_0.8.0-1~ubuntu24.04-1_amd64.deb
-```
-```
 sudo gdebi kippy-xd-dbgsym_0.8.0-1~ubuntu24.04-1_amd64.ddeb
-
 ```
 
 After the installation it will be listed using for example 'aptitude' under "Obsolete and Locally Created Packages".
