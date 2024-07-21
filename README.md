@@ -26,16 +26,17 @@ md5sums: eaed454fbb0ae56f2fa85e40746ec9f4
 
 sha256sums: 6ce0ad7d6f08b569a50f445ae779e6a63330e5d56af0ac2edd0a6552d91682ee 
 
+.
 
 **For Ubuntu 24.04 LTS and Linux Mint 22 Beta (Codebase: Ubuntu 24.04)**
 
-The container (holding 2 debs) by the name of **Ubuntu24.04-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: < >
+The container (holding 2 debs) by the name of **Ubuntu24.04-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1FJ3UHk-sMF7MOFcdN5G9rLQpZTj2IYUj/view?usp=drive_link>
 
 **Please check the integrity** of "Ubuntu24.04-skippy-xd_0.8.0-1_amd64_binaries.tar.gz"
 
-md5sums: 
+md5sums: 8f8e84236cd6a811fe82396fd70ecac3
 
-sha256sums: 
+sha256sums: d675027aaa2d252d604fc61bd728ce3f4acc15c408433a71b85add9d8491ee33
 
 .
 
