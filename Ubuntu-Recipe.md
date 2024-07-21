@@ -38,9 +38,9 @@ Within the *newly* created directory 'deb_build4skippy-main' do:
 
 ```
 cp -a /debian ../skippy-xd-master/
-cp -a /4ubunu_only/changelog ../skippy-xd-master/debian/
-cp -a /4ubunu_only/control ../skippy-xd-master/debian/
-cp -a /4ubunu_only/ready4ubuntu ../skippy-xd-master/
+cp /4ubunu_only/changelog ../skippy-xd-master/debian/
+cp /4ubunu_only/control ../skippy-xd-master/debian/
+cp /4ubunu_only/ready4ubuntu ../skippy-xd-master/
 ```
 
 Now enter the skippy-xd-master directory. After checking if /debian is present and populated with files and a sub-directory execute the next command (from ./skippy-xd-master/):
@@ -51,12 +51,12 @@ dpkg-buildpackage -rfakeroot -us -uc -b
 
 and very shortly after you should find two new deb-binaries in the parent-directory of skippy-xd-master. (Any warning about debian/changelog can be safely ignored, it's OK)
 
-You can now install them. Note that skippy-xd-dbgsym_x.x.x-x~ubuntu24.04-*_amd64.ddeb is optional.
-
-I have no idea why in Ubuntu the dbgsym-file gets renamed to *.ddeb
-
+You can now install them.
 ```
 sudo gdebi skippy-xd_0.8.0-1~ubuntu24.04-1_amd64.deb
+```
+Optional (I have no idea why in Ubuntu the dbgsym-file gets renamed to *.ddeb):
+```
 sudo gdebi kippy-xd-dbgsym_0.8.0-1~ubuntu24.04-1_amd64.ddeb
 ```
 
