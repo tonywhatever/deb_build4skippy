@@ -1,4 +1,9 @@
-# deb_build4skippy
+# Updating it. Do not use it, will be usable again on Tue 23 Jul 2024 21:33:26 NZST
+
+
+# deb_build4skippy 
+
+Architecture: amd64
 
 Preliminary:
 
@@ -18,9 +23,9 @@ Installable unsigned *'Debian Bookworm (12)-amd64'* , *'Ubuntu Noble (24.04)-amd
 
 **For Debian 12**
 
-The container (holding 2 debs) by the name of **Debian12-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1eNo3ZV5Gsh_oCZYq1oFlfgwwzaP1sArd/view?usp=sharing>
+The container (holding 2 debs) by the name of **Debian12-skippy-xd_0.8.0-2_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1eNo3ZV5Gsh_oCZYq1oFlfgwwzaP1sArd/view?usp=sharing>
 
-**Please check the integrity** of "Debian12-skippy-xd_0.8.0-1_amd64_binaries.tar.gz"
+**Please check the integrity** of "Debian12-skippy-xd_0.8.0-2_amd64_binaries.tar.gz"
 
 md5sums: eaed454fbb0ae56f2fa85e40746ec9f4
 
