@@ -44,6 +44,8 @@ sha256sums: d675027aaa2d252d604fc61bd728ce3f4acc15c408433a71b85add9d8491ee33
 
 ## How to create a skippy-xd debian package?
 
+No need to panic, no editing required (except for backporting and that is for changing one word only). After downloading the essential tools, the build-dependencies and the 2 zip-files you will have an installable debian-package within a few minutes. It is as easy as that.
+
 For Debian read Debian-Recipe.md
 
 For Ubuntu and Linuxmint (includes backporting) read Ubuntu-Recipe.md
