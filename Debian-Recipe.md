@@ -47,7 +47,7 @@ dpkg-buildpackage -rfakeroot -us -uc -b
 
 and very shortly after you should find two new deb-binaries in the parent-directory of skippy-xd-master. (Any warning about debian/changelog can be safely ignored, it's OK)
 
-You can now install them.
+You can now install them for example with:
 ```
 sudo gdebi skippy-xd_0.8.0-2_amd64.deb
 ```
