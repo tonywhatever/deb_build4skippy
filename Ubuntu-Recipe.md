@@ -58,13 +58,13 @@ dpkg-buildpackage -rfakeroot -us -uc -b
 
 and very shortly after you should find two new deb-binaries in the parent-directory of skippy-xd-master. (Any warning about debian/changelog can be safely ignored, it's OK)
 
-You can now install them.
+You can now install them for example with:
 ```
-sudo gdebi skippy-xd_0.8.0-1~ubuntu24.04-1_amd64.deb
+sudo gdebi skippy-xd_0.8.0-2~ubuntu24.04_amd64.deb
 ```
 Optional (I have no idea why in Ubuntu the dbgsym-file gets renamed to *.ddeb):
 ```
-sudo gdebi kippy-xd-dbgsym_0.8.0-1~ubuntu24.04-1_amd64.ddeb
+sudo gdebi kippy-xd-dbgsym_0.8.0-2~ubuntu24.04_amd64.ddeb
 ```
 
 After the installation it will be listed using for example 'aptitude' under "Obsolete and Locally Created Packages".
