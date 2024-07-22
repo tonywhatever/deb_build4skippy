@@ -23,28 +23,40 @@ Installable unsigned *'Debian Bookworm (12)-amd64'* , *'Ubuntu Noble (24.04)-amd
 
 **For Debian 12**
 
-The container (holding 2 debs) by the name of **Debian12-skippy-xd_0.8.0-2_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1eNo3ZV5Gsh_oCZYq1oFlfgwwzaP1sArd/view?usp=sharing>
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: < >
 
 **Please check the integrity** of "Debian12-skippy-xd_0.8.0-2_amd64_binaries.tar.gz"
 
-md5sums: eaed454fbb0ae56f2fa85e40746ec9f4
+md5sums: 
 
-sha256sums: 6ce0ad7d6f08b569a50f445ae779e6a63330e5d56af0ac2edd0a6552d91682ee 
+sha256sums:  
 
 .
 
 **For Ubuntu 24.04 LTS and Linux Mint 22 Beta (Codebase: Ubuntu 24.04)**
 
-The container (holding 2 debs) by the name of **Ubuntu24.04-skippy-xd_0.8.0-1_amd64_binaries.tar.gz** is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1FJ3UHk-sMF7MOFcdN5G9rLQpZTj2IYUj/view?usp=drive_link>
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: < >
 
-**Please check the integrity** of "Ubuntu24.04-skippy-xd_0.8.0-1_amd64_binaries.tar.gz"
+**Please check the integrity** of "Ubuntu24.04-skippy-xd_0.8.0-2_amd64_binaries.tar.gz"
 
-md5sums: 8f8e84236cd6a811fe82396fd70ecac3
+md5sums: 
 
-sha256sums: d675027aaa2d252d604fc61bd728ce3f4acc15c408433a71b85add9d8491ee33
+sha256sums: 
 
 .
 
+**For Ubuntu 22.04 LTS and Linux Mint 21**
+
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: < >
+
+**Please check the integrity** of "Ubuntu22.04-skippy-xd_0.8.0-2_amd64_binaries.tar.gz"
+
+md5sums: 
+
+sha256sums: 
+
+
+.
 
 
 ## How to create a skippy-xd debian package?
