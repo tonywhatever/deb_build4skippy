@@ -1,4 +1,10 @@
-skippy-xd (0.8.0-1~ubuntu24.04-1) unstable; urgency=medium
+skippy-xd (0.8.0-2~ubuntu24.04) unstable; urgency=medium
+
+  * Uodated Documentations
+
+ -- Antony DC <antonydc047@gmail.com>  Fri, 19 Jul 2024 10:02:55 +1200
+
+skippy-xd (0.8.0-1~ubuntu24.04) unstable; urgency=medium
 
   * New upstream version 0.8.0 (20-04-2024) in zip-format
 
