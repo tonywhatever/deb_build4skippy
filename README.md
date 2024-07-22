@@ -12,7 +12,7 @@ Goal:
 
 My aim is to support Felix Fung's project with a proper debian-tree for the folks who want to create their own two debian binary packages to run skippy-xd.
 
-Installable unsigned *'Debian Bookworm (12)-amd64'* , *'Ubuntu noble (24.04)-amd64'* packages are made available for downloading.
+Installable unsigned *'Debian Bookworm (12)-amd64'* , *'Ubuntu Noble (24.04)-amd64'* packages are made available for downloading.
 
 ## Where are the binary packages for downloading?
 
