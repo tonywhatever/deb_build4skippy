@@ -1,11 +1,6 @@
 skippy-xd for Debian
 --------------------
 
-The debian package was built on a Devuan (stable) machine and is
-compatible with most distributions which are based on Debian (stable)
-such as MX-Linux, Antix etc. It will not work with Ubuntu or Mint.
-Sorry.
-
 For how to use skippy-xd please read the manpage. $ man skippy-xd
 
 If you are new to skippy-xd, it is strongly recommended to read the Wiki at
