@@ -2,6 +2,7 @@
 
 ## Create a debian package for all flavours of Ubuntu 24.04 LTS and Linux Mint 22 Beta (Codebase: Ubuntu 24.04)
 
+If you use **Ubuntu 22.04/Linux Mint 21** it can easely be backported. See further down.
 
 
 For Version 0.8.0 -- "Labyrinth" (19 June 2024) ~/felixfung
@@ -35,6 +36,12 @@ Download the zip-file from: <https://github.com/felixfung/skippy-xd> and unzip i
 Do not enter 'skippy-xd-master' but download the zip-file from <https://github.com/tonywhatever/deb_build4skippy> and unzip it.
 
 Within the *newly* created directory 'deb_build4skippy-main' do:
+
+Start of Backport Instruction
+
+Edit first the File 4ubuntu_only/changelog and replace 'ubuntu24.04' with 'ubuntu22.04' and save the file. That is all!
+
+End of Backport Imstruction
 
 ```
 cp -a /debian ../skippy-xd-master/
