@@ -48,7 +48,7 @@ No need to panic, no editing required (except for backporting and that is for ch
 
 For Debian read Debian-Recipe.md
 
-For Ubuntu and Linuxmint (includes backporting) read Ubuntu-Recipe.md
+For Ubuntu and Linux Mint (includes backporting) read Ubuntu-Recipe.md
 
 
 
