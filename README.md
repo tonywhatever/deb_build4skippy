@@ -46,7 +46,7 @@ sha256sums: d675027aaa2d252d604fc61bd728ce3f4acc15c408433a71b85add9d8491ee33
 
 For Debian read Debian-Recipe.md
 
-For Ubuntu and Linuxmint read Ubuntu-Recipe.md
+For Ubuntu and Linuxmint (includes backporting) read Ubuntu-Recipe.md
 
 
 
