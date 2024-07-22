@@ -49,11 +49,11 @@ and very shortly after you should find two new deb-binaries in the parent-direct
 
 You can now install them.
 ```
-sudo gdebi skippy-xd_0.8.0-1_amd64.deb
+sudo gdebi skippy-xd_0.8.0-2_amd64.deb
 ```
 Optional:
 ```
-sudo gdebi skippy-xd-dbgsym_0.8.0-1_amd64.deb
+sudo gdebi skippy-xd-dbgsym_0.8.0-2_amd64.deb
 
 ```
 After the installation it will be listed using for example 'aptitude' under "Obsolete and Locally Created Packages".
