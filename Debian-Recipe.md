@@ -36,7 +36,7 @@ Do not enter 'skippy-xd-master' but download the zip-file from <https://github.c
 Within the *newly* created directory 'deb_build4skippy-main' do:
 
 ```
-cp -a /debian ../skippy-xd-master/
+cp -a ./debian ../skippy-xd-master/
 ```
 
 Now enter the skippy-xd-master directory. After checking if /debian is present and populated with files and a sub-directory execute the next command:
