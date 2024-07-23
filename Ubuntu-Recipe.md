@@ -44,10 +44,10 @@ Edit first the File /4ubuntu_only/changelog and replace 'ubuntu24.04' with 'ubun
 ---End of Backport Imstruction
 
 ```
-cp -a /debian ../skippy-xd-master/
-cp /4ubunu_only/changelog ../skippy-xd-master/debian/
-cp /4ubunu_only/control ../skippy-xd-master/debian/
-cp /4ubunu_only/ready4ubuntu ../skippy-xd-master/
+cp -a ./debian ../skippy-xd-master/
+cp ./4ubunu_only/changelog ../skippy-xd-master/debian/
+cp ./4ubunu_only/control ../skippy-xd-master/debian/
+cp ./4ubunu_only/ready4ubuntu ../skippy-xd-master/
 ```
 
 Now enter the skippy-xd-master directory. After checking if /debian is present and populated with files and a sub-directory execute the next command (from ./skippy-xd-master/):
