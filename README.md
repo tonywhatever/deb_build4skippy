@@ -1,6 +1,3 @@
-# Updating it. Do not use it, will be usable again on Tue 23 Jul 2024 21:33:26 NZST
-
-
 # deb_build4skippy 
 
 Architecture: amd64
