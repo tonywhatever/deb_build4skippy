@@ -2,6 +2,8 @@
 
 ## Create a debian package for all flavours of Ubuntu 24.04 LTS and Linux Mint 22 Beta (Codebase: Ubuntu 24.04)
 
+Architecture: amd64
+
 If you use **Ubuntu 22.04/Linux Mint 21** it can easely be backported. See further down.
 
 
