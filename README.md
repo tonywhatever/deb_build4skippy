@@ -23,37 +23,37 @@ Installable unsigned *'Debian Bookworm (12)-amd64'* , *'Ubuntu Noble (24.04)-amd
 
 **For Debian 12**
 
-The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: < >
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1s3yCILDDnvUDKHhAZTaBjAhzzUYocao_/view?usp=drive_link>
 
 **Please check the integrity** of "Debian12-skippy-xd_0.8.0-2_amd64_binaries.tar.gz"
 
-md5sums: 
+md5sums: 6e41e41997e28d6c36e8a4eaabd60783
 
-sha256sums:  
+sha256sums: d66fe92e3f67d6ead64d7cab8feea886112c4460f485c5835ff1fd926b06e147
 
 .
 
 **For Ubuntu 24.04 LTS and Linux Mint 22 Beta (Codebase: Ubuntu 24.04)**
 
-The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: < >
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1l3r6AL6Q96-EsFr7XwlP7fTjxXLMueBd/view?usp=drive_link>
 
 **Please check the integrity** of "Ubuntu24.04-skippy-xd_0.8.0-2_amd64_binaries.tar.gz"
 
-md5sums: 
+md5sums: d863b7466c4a0ee19dcd7e6b74a9b1ff
 
-sha256sums: 
+sha256sums: 2a3a4c82759b239a1fb73f3c59b73b448a749b59c7acb23cc1094a1518619ea4
 
 .
 
 **For Ubuntu 22.04 LTS and Linux Mint 21**
 
-The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: < >
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/14Hm1fJqqop8caBL49hdI4idxeYzpOrki/view?usp=drive_link>
 
 **Please check the integrity** of "Ubuntu22.04-skippy-xd_0.8.0-2_amd64_binaries.tar.gz"
 
-md5sums: 
+md5sums: 4a8fe08cc32db42240c98f461a484457
 
-sha256sums: 
+sha256sums: 663231d0705088cf6442d5c3493d07a1cf23e624dedc1cc1885b69fd14802e39
 
 
 .
