@@ -1,6 +1,8 @@
 
 
-## Create a debian package for Debian 12, Devuan 5, MX-Linux 23....
+## Create a debian package for Debian 12, Devuan 5, MX-Linux 23, Antix, SpiralLinux etc
+
+Architecture: amd64
 
 For Version 0.8.0 -- "Labyrinth" (19 June 2024) ~/felixfung
 
