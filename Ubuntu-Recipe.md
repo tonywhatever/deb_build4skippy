@@ -43,7 +43,7 @@ Within the *newly* created directory 'deb_build4skippy-main' do:
 
 Edit first the File /4ubuntu_only/changelog and replace 'ubuntu24.04' with 'ubuntu22.04' and save the file. That is all!
 
----End of Backport Imstruction
+---End of Backport Instruction
 
 ```
 cp -a ./debian ../skippy-xd-master/
