@@ -30,6 +30,18 @@ sha256sums: d66fe92e3f67d6ead64d7cab8feea886112c4460f485c5835ff1fd926b06e147
 
 .
 
+**For Debian 12 i386**
+
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1M5uFV3AzAh8MowQef_IBti_oGJLHBC29/view?usp=drive_link >
+
+**Please check the integrity** of "Debian12-skippy-xd_0.8.0-2_i386_binaries.tar.gz"
+
+md5sums: aa219e1a633dc6c8888ae2f25e04b12d
+
+sha256sums: 87761c6ce7a8b0bc3fd5f691699982e6c02100e2f975f212390d9e15dfab0c6c
+
+.
+
 **For Ubuntu 24.04 LTS and Linux Mint 22 Beta (Codebase: Ubuntu 24.04)**
 
 The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1l3r6AL6Q96-EsFr7XwlP7fTjxXLMueBd/view?usp=drive_link>
