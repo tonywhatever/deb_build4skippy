@@ -1,6 +1,6 @@
 # deb_build4skippy 
 
-Architecture: amd64
+Architecture: Debian: amd64/i386, Ubuntu/Linux Mint: amd64
 
 Preliminary:
 
