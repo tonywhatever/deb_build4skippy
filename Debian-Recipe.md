@@ -2,7 +2,9 @@
 
 ## Create a debian package for Debian 12, Devuan 5, MX-Linux 23, Antix, SpiralLinux etc
 
-Architecture: amd64
+Default Architecture: amd64
+
+If you are on a i386-machine a i386-Package can easely be created. See further down.
 
 For Version 0.8.0 -- "Labyrinth" (19 June 2024) ~/felixfung
 
@@ -34,6 +36,12 @@ We don't use git, we download the zip-file!
 Download the zip-file from: <https://github.com/felixfung/skippy-xd> and unzip it, thus creating a directory 'skippy-xd-mster'.
 
 Do not enter 'skippy-xd-master' but download the zip-file from <https://github.com/tonywhatever/deb_build4skippy> and unzip it.
+
+---Start of i386 Instruction
+
+Edit first ./deb_build4skippy-main/debian/control by changing the line "Architecture: amd64" with "Architecture: i386" (no quotes) and save the file. That is all.
+
+---End of i386 Instruction
 
 Within the *newly* created directory 'deb_build4skippy-main' do:
 
