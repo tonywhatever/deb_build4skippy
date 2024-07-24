@@ -39,7 +39,7 @@ Do not enter 'skippy-xd-master' but download the zip-file from <https://github.c
 
 ---Start of i386 Instruction
 
-Edit first ./deb_build4skippy-main/debian/control by changing the line "Architecture: amd64" with "Architecture: i386" (no quotes) and save the file. That is all.
+Edit first ./deb_build4skippy-main/debian/control by exchanging the line "Architecture: amd64" with "Architecture: i386" (no quotes) and save the file. That is all.
 
 ---End of i386 Instruction
 
