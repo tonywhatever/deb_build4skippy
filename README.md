@@ -42,7 +42,7 @@ sha256sums: 87761c6ce7a8b0bc3fd5f691699982e6c02100e2f975f212390d9e15dfab0c6c
 
 .
 
-**For Ubuntu 24.04 LTS and Linux Mint 22 Beta (Codebase: Ubuntu 24.04)**
+**For Ubuntu 24.04 LTS and Linux Mint 22 (Codebase: Ubuntu 24.04)**
 
 The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1l3r6AL6Q96-EsFr7XwlP7fTjxXLMueBd/view?usp=drive_link>
 
@@ -54,7 +54,7 @@ sha256sums: 2a3a4c82759b239a1fb73f3c59b73b448a749b59c7acb23cc1094a1518619ea4
 
 .
 
-**For Ubuntu 22.04 LTS and Linux Mint 21**
+**For Ubuntu 22.04 LTS and Linux Mint 21 (Codebase: Ubuntu 22.04)**
 
 The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/14Hm1fJqqop8caBL49hdI4idxeYzpOrki/view?usp=drive_link>
 
