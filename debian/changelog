@@ -1,3 +1,16 @@
+skippy-xd (0.9.0-1) unstable; urgency=medium
+
+  * New upstream version 0.9.0 (28-01-2025) in zip-format
+
+ -- Antony DC <antonydc047@gmail.com>  Tue, 28 Jan 2025 11:02:55 +1200
+
+skippy-xd (0.8.0-3) unstable; urgency=medium
+
+  * Fixed pipename (upstream)
+  * Fixed typo in man-page
+
+ -- Antony DC <antonydc047@gmail.com>  Fri, 13 Dec 2024 10:02:55 +1200
+
 skippy-xd (0.8.0-2) unstable; urgency=medium
 
   * Uodated Documentations
