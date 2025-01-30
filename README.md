@@ -2,11 +2,11 @@
 
 Architecture: Debian: amd64/i386, Ubuntu/Linux Mint: amd64
 
-## Do not use it, updating right now for the new version of skippy-xd
+## Updated for source-code 0.9.0
 
 Preliminary:
 
-Thanks to *Felix Fung* skippy-xd is not dead. The project's URL is: <https://github.com/felixfung/skippy-xd>/
+Thanks to *Felix Fung* skippy-xd is very much alive. The project's URL is: <https://github.com/felixfung/skippy-xd>/
 
 Please note the following:
 
@@ -16,43 +16,43 @@ Goal:
 
 My aim is to support Felix Fung's project with a proper debian-tree for the folks who want to create their own two debian binary packages to run skippy-xd.
 
-Installable unsigned *'Debian Bookworm (12)-amd64'* , *'Ubuntu Noble (24.04)-amd64'* packages are made available for downloading.
+Installable unsigned *'Debian Bookworm (12)-amd64/i386'* , *'Ubuntu Noble (24.04)-amd64'* packages are made available for downloading.
 
 ## Where are the binary packages for downloading?
 
-**For Debian 12**
+**For Debian 12 amd64**
 
-The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1s3yCILDDnvUDKHhAZTaBjAhzzUYocao_/view?usp=drive_link>
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1YdOk5kby_FVuQ49_usr726n5ztFT1BUE/view?usp=drive_link>
 
 **Please check the integrity** of "Debian12-skippy-xd_0.9.0-1_amd64_binaries.tar.gz"
 
-md5sums: 
+md5sums: 40a982b907c84336478925e3287475a6
 
-sha256sums: 
+sha256sums: 031b8b6f4f6a49e418509a1759914879fc2667fdb10051c342b3cc52cf830658
 
 .
 
 **For Debian 12 i386**
 
-The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1M5uFV3AzAh8MowQef_IBti_oGJLHBC29/view?usp=drive_link >
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1zh3h1Hxe_C2V71ebK20aYGJLi1sy3AO7/view?usp=drive_link>
 
 **Please check the integrity** of "Debian12-skippy-xd_0.9.0-1_i386_binaries.tar.gz"
 
-md5sums: 
+md5sums: a9c10dc9f94526f1c941556d91a8a1e5
 
-sha256sums: 
+sha256sums: 1c2fe74c211edc1d8686db5b7d7708d5857c25c180917c5ac77882e8feb689de
 
 .
 
 **For Ubuntu 24.04 LTS and Linux Mint 22 (Codebase: Ubuntu 24.04)**
 
-The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1l3r6AL6Q96-EsFr7XwlP7fTjxXLMueBd/view?usp=drive_link>
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1-TF5kK6yKXD5Q8QDLrPluRD6of3x9iYv/view?usp=drive_link>
 
 **Please check the integrity** of "Ubuntu24.04-skippy-xd_0.9.0-1_amd64_binaries.tar.gz"
 
-md5sums: 
+md5sums: 48720cae511e87a8b0394b3a6dfc7101
 
-sha256sums: 
+sha256sums: 31e298075144584f5264ccc09332532f440e46fa1fb3c9e33158473b9744e9fb
 
 .
 
