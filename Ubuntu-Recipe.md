@@ -1,6 +1,6 @@
 
 
-## Create a debian package for all flavours of Ubuntu 24.04 LTS and Linux Mint 22 Beta (Codebase: Ubuntu 24.04)
+## Create a debian package for all flavours of Ubuntu 24.04 LTS and Linux Mint 22 (Codebase: Ubuntu 24.04)
 
 Architecture: amd64
 
@@ -47,9 +47,9 @@ Edit first the File /4ubuntu_only/changelog and replace 'ubuntu24.04' with 'ubun
 
 ```
 cp -a ./debian ../skippy-xd-master/
-cp ./4ubunu_only/changelog ../skippy-xd-master/debian/
-cp ./4ubunu_only/control ../skippy-xd-master/debian/
-cp ./4ubunu_only/ready4ubuntu ../skippy-xd-master/
+cp ./4ubuntu_only/changelog ../skippy-xd-master/debian/
+cp ./4ubuntu_only/control ../skippy-xd-master/debian/
+cp ./4ubuntu_only/ready4ubuntu ../skippy-xd-master/
 ```
 
 Now enter the skippy-xd-master directory. After checking if /debian is present and populated with files and a sub-directory execute the next command (from ./skippy-xd-master/):
@@ -66,7 +66,7 @@ sudo gdebi skippy-xd_0.9.0-1~ubuntu24.04_amd64.deb
 ```
 Optional (I have no idea why in Ubuntu the dbgsym-file gets renamed to *.ddeb):
 ```
-sudo gdebi kippy-xd-dbgsym_0.9.0-1~ubuntu24.04_amd64.ddeb
+sudo gdebi kippy-xd-dbgsym_0.9.0-1~ubuntu24.04_amd64.deb
 ```
 
 After the installation it will be listed using for example 'aptitude' under "Obsolete and Locally Created Packages".
