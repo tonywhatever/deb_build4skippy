@@ -12,11 +12,6 @@ Please note the following:
 
 I am not an official debian-packager nor a coder and using Git is a pain in the neck for me. However I think that my very own two deb-pkgs are more up to date and far more debian-conforming in contrast to the available packages from the usual debian repos.
 
-Goal:
-
-My aim is to support Felix Fung's project with a proper debian-tree for the folks who want to create their own two debian binary packages to run skippy-xd.
-
-Installable unsigned *'Debian Bookworm (12)-amd64/i386'* , *'Ubuntu Noble (24.04)-amd64'* packages are made available for downloading.
 
 ## Where are the binary packages for downloading?
 
