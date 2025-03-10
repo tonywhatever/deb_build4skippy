@@ -6,7 +6,7 @@ Default Architecture: amd64
 
 If you are on a i386-machine a i386-Package can easely be created. See further down.
 
-For Version 0.9.0 -- "Marble" (26 Dec 2024) ~/felixfung
+For Version 0.10.0 -- "Spacesuit" (28 Feb 2025) ~/felixfung
 
 The following instruction are for **Debian 12 (Bookworm)** and **Devuan 5 (Daedalus)** and will also work for MX-Linux, Antix, SpiralLinux etc.
 
@@ -59,11 +59,11 @@ and very shortly after you should find two new deb-binaries in the parent-direct
 
 You can now install them for example with:
 ```
-sudo gdebi skippy-xd_0.9.0-1_amd64.deb
+sudo gdebi skippy-xd_0.*.*-*_amd64.deb
 ```
 Optional:
 ```
-sudo gdebi skippy-xd-dbgsym_0.9.0-1_amd64.deb
+sudo gdebi skippy-xd-dbgsym_0.*.*-*_amd64.deb
 
 ```
 After the installation it will be listed using for example 'aptitude' under "Obsolete and Locally Created Packages".
