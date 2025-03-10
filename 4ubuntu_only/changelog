@@ -1,3 +1,9 @@
+skippy-xd (0.10.0-1) unstable; urgency=medium
+
+  * New upstream version 0.10.0 (28-02-2025) in zip-format
+
+ -- Antony DC <antonydc047@gmail.com>  Mon, 10 Mar 2025 09:42:48 +1200
+
 skippy-xd (0.9.0-1-ubuntu24.04) unstable; urgency=medium
 
   * New upstream version 0.9.0 (28-01-2025) in zip-format
