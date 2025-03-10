@@ -21,11 +21,11 @@ I am not an official debian-packager nor a coder and using Git is a pain in the 
 
 The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1YdOk5kby_FVuQ49_usr726n5ztFT1BUE/view?usp=drive_link>
 
-**Please check the integrity** of "Debian12-skippy-xd_0.9.0-1_amd64_binaries.tar.gz"
+**Please check the integrity** of "Debian12-skippy-xd_0.10.0-1_amd64_binaries.tar.gz"
 
-md5sums: 40a982b907c84336478925e3287475a6
+md5sums: 6e21c50fddaf6dd58a94f039f706f772
 
-sha256sums: 031b8b6f4f6a49e418509a1759914879fc2667fdb10051c342b3cc52cf830658
+sha256sums: 43c18ff261efaa650aa542418ffca88cc9519af14265ddf56c0bd54ad804bebb
 
 .
 
@@ -33,11 +33,11 @@ sha256sums: 031b8b6f4f6a49e418509a1759914879fc2667fdb10051c342b3cc52cf830658
 
 The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1zh3h1Hxe_C2V71ebK20aYGJLi1sy3AO7/view?usp=drive_link>
 
-**Please check the integrity** of "Debian12-skippy-xd_0.9.0-1_i386_binaries.tar.gz"
+**Please check the integrity** of "Debian12-skippy-xd_0.10.0-1_i386_binaries.tar.gz"
 
-md5sums: a9c10dc9f94526f1c941556d91a8a1e5
+md5sums: 81ae909d56bbad59e95aa11544ca0613
 
-sha256sums: 1c2fe74c211edc1d8686db5b7d7708d5857c25c180917c5ac77882e8feb689de
+sha256sums: 5fc72f38d7d53e5af5f27444096cf7bab2c2cc012e64a7a762d3a88d08eb2663
 
 .
 
@@ -45,11 +45,11 @@ sha256sums: 1c2fe74c211edc1d8686db5b7d7708d5857c25c180917c5ac77882e8feb689de
 
 The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1-TF5kK6yKXD5Q8QDLrPluRD6of3x9iYv/view?usp=drive_link>
 
-**Please check the integrity** of "Ubuntu24.04-skippy-xd_0.9.0-1_amd64_binaries.tar.gz"
+**Please check the integrity** of "Ubuntu24.04-skippy-xd_0.10.0-1_amd64_binaries.tar.gz"
 
-md5sums: 48720cae511e87a8b0394b3a6dfc7101
+md5sums: 3d0b0fa06f154c0319a4ac290163f315
 
-sha256sums: 31e298075144584f5264ccc09332532f440e46fa1fb3c9e33158473b9744e9fb
+sha256sums: f99c4d131c89cca4e0564aa6925f7b3fc669c27eb57d795d88119df69ffd2b44
 
 .
 
