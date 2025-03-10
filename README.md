@@ -2,6 +2,8 @@
 
 Architecture: Debian: amd64/i386, Ubuntu/Linux Mint: amd64
 
+## In the process to update to 0.10.0 - Don't use it - ETA: 13-03-2025
+
 ## Updated for source-code 0.9.0
 
 Preliminary:
