@@ -7,7 +7,7 @@ Architecture: amd64
 If you use **Ubuntu 22.04/Linux Mint 21** it can easely be backported. See further down.
 
 
-For Version 0.9.0 -- "Marble" (26 Dec 2024) ~/felixfung
+For Version 0.10.0 -- "Spacesuit" (28 Feb 2025) ~/felixfung
 
 
 It does create the proper but unsigned Debian-Binaries-Packades only. We omit deliberatelly the creation of skippy-xd_x.x.x.orig.tar.gz (debianized source), skippy-xd_x.x.x-x.dsc and skippy-xd_x.x.x-x.debian.tar.xz.
@@ -62,11 +62,11 @@ and very shortly after you should find two new deb-binaries in the parent-direct
 
 You can now install them for example with:
 ```
-sudo gdebi skippy-xd_0.9.0-1~ubuntu24.04_amd64.deb
+sudo gdebi skippy-xd_0.*.*-*~ubuntu24.04_amd64.deb
 ```
 Optional (I have no idea why in Ubuntu the dbgsym-file gets renamed to *.ddeb):
 ```
-sudo gdebi kippy-xd-dbgsym_0.9.0-1~ubuntu24.04_amd64.deb
+sudo gdebi kippy-xd-dbgsym_0.*.*-*~ubuntu24.04_amd64.ddeb
 ```
 
 After the installation it will be listed using for example 'aptitude' under "Obsolete and Locally Created Packages".
