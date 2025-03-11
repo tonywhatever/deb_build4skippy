@@ -2,9 +2,8 @@
 
 Architecture: Debian: amd64/i386, Ubuntu/Linux Mint: amd64
 
-## In the process to update to 0.10.0 - Don't use it - ETA: 13-03-2025
 
-## Updated for source-code 0.9.0
+## Updated for source-code 0.10.0 -- "Spacesuit" (28 Feb 2025) ~/felixfung
 
 Preliminary:
 
@@ -19,37 +18,37 @@ I am not an official debian-packager nor a coder and using Git is a pain in the 
 
 **For Debian 12 amd64**
 
-The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1YdOk5kby_FVuQ49_usr726n5ztFT1BUE/view?usp=drive_link>
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/157fZcfUF0vwMFgJ8FBxB41EpGlnt3oaO/view?usp=drive_link>
 
 **Please check the integrity** of "Debian12-skippy-xd_0.10.0-1_amd64_binaries.tar.gz"
 
-md5sums: 6e21c50fddaf6dd58a94f039f706f772
+md5sums: b81d5cdedad8930f5c447a4bd3f8f8ae
 
-sha256sums: 43c18ff261efaa650aa542418ffca88cc9519af14265ddf56c0bd54ad804bebb
+sha256sums: 0b16f71f55e1dd3ee9894b0e4b232770bc1885856bd76bcbf05dca8e7f116948
 
 .
 
 **For Debian 12 i386**
 
-The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1zh3h1Hxe_C2V71ebK20aYGJLi1sy3AO7/view?usp=drive_link>
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1Yd5-YKXAyp6lKaQGd9LrjKgU8y5J7Orm/view?usp=drive_link>
 
 **Please check the integrity** of "Debian12-skippy-xd_0.10.0-1_i386_binaries.tar.gz"
 
-md5sums: 81ae909d56bbad59e95aa11544ca0613
+md5sums: f061b99c4eeed4a29f33e5e8037ad453
 
-sha256sums: 5fc72f38d7d53e5af5f27444096cf7bab2c2cc012e64a7a762d3a88d08eb2663
+sha256sums: eaa91e73ecda347fb4fbb078195ed3746f94b2b7b1b2294ca317262e6bbbb8db
 
 .
 
 **For Ubuntu 24.04 LTS and Linux Mint 22 (Codebase: Ubuntu 24.04)**
 
-The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1-TF5kK6yKXD5Q8QDLrPluRD6of3x9iYv/view?usp=drive_link>
+The container (holding 2 debs) is on my 'Google Drive'. You don't have to sign in. The link for downloding is: <https://drive.google.com/file/d/1aykrg-N312MUUqe5j-5Wz0_uf0umqSjG/view?usp=drive_link>
 
 **Please check the integrity** of "Ubuntu24.04-skippy-xd_0.10.0-1_amd64_binaries.tar.gz"
 
-md5sums: 3d0b0fa06f154c0319a4ac290163f315
+md5sums: 2c6481c7f8dabca57222468cd46b13f4
 
-sha256sums: f99c4d131c89cca4e0564aa6925f7b3fc669c27eb57d795d88119df69ffd2b44
+sha256sums: 3da5fa4ede932487b2fb100b9b9c03dd3a03991b52c32526ba0f8cab80750a22
 
 .
 
